@@ -51,13 +51,9 @@ export default function App() {
                   19
                 </span>
                 <span class="units">
-                  <a href="#" id="celsius">
                     °C
-                  </a>{" "}
                   |
-                  <a href="#" id="fahrenheit">
                     °F
-                  </a>
                 </span>
               </div>
             </div>
