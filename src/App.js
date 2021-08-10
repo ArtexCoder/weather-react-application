@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Link from "./Link";
 
 import "./App.css";
 
@@ -50,11 +51,7 @@ export default function App() {
                 <span class="temperature" id="temperature">
                   19
                 </span>
-                <span class="units">
-                    °C
-                  |
-                    °F
-                </span>
+                <span class="units">°C | °F</span>
               </div>
             </div>
           </div>
@@ -70,6 +67,7 @@ export default function App() {
           </div>
         </div>
       </div>
+      <Link />
     </div>
   );
 }
